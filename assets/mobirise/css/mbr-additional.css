@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 
-
+*,html,body{
+   font-family: 'Open Sans', sans-serif !important; 
+}
 
 body {
   font-style: normal;
+  font-family: 'Open Sans', sans-serif !important;
   line-height: 1.5;
 }
 .mbr-section-title {
@@ -100,7 +104,7 @@ body {
   -webkit-justify-content: center;
   display: -webkit-inline-flex;
   padding: 1rem 3rem;
-  border-radius: 3px;
+  border-radius: 0 !important;
 }
 .btn-sm {
   font-weight: 500;
@@ -109,7 +113,7 @@ body {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 0.6rem 1.5rem;
-  border-radius: 3px;
+  border-radius: 0;
 }
 .btn-md {
   font-weight: 500;
@@ -119,7 +123,7 @@ body {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 1rem 3rem;
-  border-radius: 3px;
+  border-radius: 0;
 }
 .btn-lg {
   font-weight: 500;
@@ -129,10 +133,10 @@ body {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 1.2rem 3.2rem;
-  border-radius: 3px;
+  border-radius: 0;
 }
 .bg-primary {
-  background-color: #149dcc !important;
+  background-color: black !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
